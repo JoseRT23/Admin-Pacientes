@@ -16,7 +16,7 @@ const CardDate = ({ citas=[], dispatch }) => {
 
     return (
         <>
-            {citas.length === 0 ? <h1 className='my-5' style={styles.title}>No hay citas</h1> : <h1 className='my-4' style={styles.title}>Administra tus citas</h1>}
+            {citas.length === 0 ? <h1 className='my-4' style={styles.title}>No hay citas</h1> : <h1 className='my-4' style={styles.title}>Administra tus citas</h1>}
                 {
                     citas.map((cita) => {
 
