@@ -1,23 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
+import Dates from './components/Dates';
+import React from 'react'
+
+// import FormAdd from './components/FormAdd';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1 className='my-5' style={{textTransform:"uppercase", fontFamily:"'Anton', sans-serif"}}>Administrador de pacientes</h1>
+      {/* <FormAdd /> */}
+      <Dates />
     </div>
   );
 }

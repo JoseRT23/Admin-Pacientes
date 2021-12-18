@@ -1,0 +1,23 @@
+.formulario {
+    display: flex;
+    flex-direction: column;  
+    width: 100%;
+    text-align: justify;
+}
+
+.formulario input {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.formulario button {
+    width: 100%;
+    margin-top: 20px;
+    color: white;
+    background: rgba(0, 195, 255, 0.883);
+    border-radius: 5px;
+    height: 40px;
+    border: none;
+    font-size: 18px;
+}
+

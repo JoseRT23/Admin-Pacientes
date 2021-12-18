@@ -1,0 +1,21 @@
+.cardDate {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    color: black;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: justify;
+    width: auto;
+}
+
+.cardDate button {
+    width: 100%;
+    margin-top: 5px;
+    color: white;
+    background: #6441A5;
+    border-radius: 5px;
+    height: 40px;
+    border: none;
+    font-size: 18px;
+}
