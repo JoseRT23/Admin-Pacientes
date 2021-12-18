@@ -31,12 +31,17 @@ const FormAdd = ({dispatch}) => {
     }
 
     const onSubmit = () => {
-        dispatch(actionAdd); //enviar actionAdd al dispatch
-        setData({nameMascot:"", 
-                nameOwner:"", 
-                date:"", 
-                hour:"", 
-                symptom:""})//para que se limpien los campos
+        if(data.nameMascot === "" || data.nameOwner === "") {
+            alert("No pueden haber campos vacios👀")
+        } else {
+
+            dispatch(actionAdd); //enviar actionAdd al dispatch
+            setData({nameMascot:"", 
+                    nameOwner:"", 
+                    date:"", 
+                    hour:"", 
+                    symptom:""})//para que se limpien los campos
+        }
     }
 
     return (

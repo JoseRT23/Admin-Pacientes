@@ -26,7 +26,7 @@ const Dates = () => {
                     <FormAdd dispatch={dispatch}/> {/* se envia el dispatch al componente */}
                 </div>
 
-                <div className='mx-4'>
+                <div className='mx-4 mb-5'>
                     <CardDate citas={state} dispatch={dispatch}/> {/* se envia el estado con sus valores al componente card para que los muestre tambien en dispatch para borrar*/}       
                 </div>
 
